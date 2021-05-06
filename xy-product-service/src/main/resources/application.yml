@@ -1,0 +1,10 @@
+server:
+  port: 9810
+  servlet:
+    context-path: /product
+
+spring:
+  application:
+    name: xy-product-service
+  main:
+    allow-bean-definition-overriding: true

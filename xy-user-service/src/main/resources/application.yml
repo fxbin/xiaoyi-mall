@@ -1,0 +1,10 @@
+server:
+  port: 9800
+  servlet:
+    context-path: /user
+
+spring:
+  application:
+    name: xy-user-service
+  main:
+    allow-bean-definition-overriding: true

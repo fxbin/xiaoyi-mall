@@ -1,0 +1,10 @@
+server:
+  port: 9830
+  servlet:
+    context-path: /coupon
+
+spring:
+  application:
+    name: xy-coupon-service
+  main:
+    allow-bean-definition-overriding: true

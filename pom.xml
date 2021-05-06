@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cn.fxbin.bubble</groupId>
+        <artifactId>bubble-fireworks-parent</artifactId>
+        <version>2021.BUILD-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>cn.fxbin.xy</groupId>
+    <artifactId>xiaoyi-mall</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <!-- 权限 -->
+        <module>xy-auth</module>
+        <!-- 通用模块 -->
+        <module>xy-common</module>
+        <!-- 网关 -->
+        <module>xy-gateway</module>
+        <!-- 用户 -->
+        <module>xy-user-service</module>
+        <!-- 优惠券 -->
+        <module>xy-coupon-service</module>
+        <!-- 商品 -->
+        <module>xy-product-service</module>
+        <!-- 订单 -->
+        <module>xy-order-service</module>
+        <module>xy-pay-service</module>
+    </modules>
+
+    <properties>
+        <java.version>11</java.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+
+        <springfox.version>3.0.0</springfox.version>
+        <docker.image.prefix>xiaoyi</docker.image.prefix>
+        <skipTests>true</skipTests>
+    </properties>
+
+
+
+</project>

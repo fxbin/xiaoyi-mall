@@ -1,0 +1,10 @@
+server:
+  port: 9820
+  servlet:
+    context-path: /order
+
+spring:
+  application:
+    name: xy-order-service
+  main:
+    allow-bean-definition-overriding: true
